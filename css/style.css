@@ -226,7 +226,7 @@ h2 {
     top: 90px;
     left: 35%;
     height: 50px;
-    width: 130px;
+    width: 25%;
     background-color: #4d59a1;
     color: white;
     font-size: 11pt;
@@ -306,6 +306,8 @@ h2 {
     background-color: white;
     padding: 40px;
 }
+
+.prices-view h2 {margin: 60px 0 20px 0;}
 
 .prices-view__container-economy-graph {
     background-color: #2f3a81;
