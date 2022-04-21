@@ -1,0 +1,348 @@
+@import 'fonts.css';
+
+body{
+    background-image: url('../img/fon.png');
+}
+
+.container {
+    width: 80%;
+}
+
+.row{
+    margin-bottom: 50px;
+    font-family: 'Museo Cyrl';
+    position: relative;
+}
+
+/* section trim */
+.trim {
+    margin: 0 auto;
+    padding-top: 55px;
+    text-align: center;
+}
+
+.trim_container-color {
+    position: absolute;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    top: 0;
+}
+
+.trim__row {
+    width: 32%;
+    background-color: white;
+    padding: 0 0 70px 0;
+}
+
+.trim__row:hover {
+    box-shadow: 0 0 15px 12px rgb(199, 199, 199);
+}
+
+.trim__img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+}
+
+.trim h4 {
+    margin: 40px 20px;
+} 
+
+button {
+    border: 0;
+    font-family: 'Open Sans Regular';
+    text-transform: uppercase;
+}
+
+.trim__button {
+    background-color: #4d59a1;
+    color: white;
+    width: 130px;
+    height: 50px;
+}
+
+p {
+    font-family: 'Open Sans Regular';
+    font-size: 16px;
+}
+
+h2 {
+    text-align: center;
+    margin: 50px;
+}
+
+/* section variants */
+
+.variants__container-title {
+    margin-top: 75px;
+    padding: 0 90px;
+}
+
+.variants_container-color {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.vertical {
+    height: 450px;
+    width: 105%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.horizontal {
+    height: 300px;
+    width: 103%;
+    object-fit: cover;
+    filter: brightness(50%);
+}
+
+.variants_container-color:hover .variants__h4-price,
+.variants_container-color:hover .variants__h4-price-horizontal{
+    display: none;
+}
+
+.horizontal:hover,
+.vertical:hover {
+    filter: brightness(30%);
+}
+
+.variants_container-color h4, .variants_container-color button, .variants_container-color p {
+    position: absolute;
+    left: 40px;
+    right: 10px;
+    color: white;
+}
+
+.variants_container-color button {
+    display: none;
+    width: 150px;
+    height: 50px;
+    background-color: #ff5f01;
+}
+.variants__button-order-horizontal {bottom: 35px;}
+.variants__button-order {bottom: 45px;}
+.variants__h4-price {bottom: 70px;}
+.variants__h4-price-horizontal {bottom: 55px;}
+.variants__h4-text {top: 70px;}
+.variants__h4-text-horizontal {top: 50px;}
+
+
+.variants__p-description {
+    display: none;
+    top: 160px;
+}
+
+.variants__p-description-horizontal {
+    display: none;
+    top: 100px;
+}
+
+.variants_container-color:hover button,
+.variants_container-color:hover p {
+    display: block;
+}
+
+.variants__form {
+    height: 450px;
+    width: 105%;
+    border: 5px solid #ff5f01;
+    background-color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+.variants__form h4 {
+    margin-bottom: 25px;
+}
+
+.variants__form p {
+    float: left;
+    margin-top: 10px;
+    width: 60%;
+    font-size: 10px;
+    text-align: left;
+    word-break: break-all;
+}
+.variants__btn-primary {
+    float: right;
+    margin: 10px 10px 30px 0;
+    width: 30%;
+    height: 40px;
+    font-size: 60%;
+    color: white;
+    background-color: #ff5f01;
+}
+
+.variants__form input {margin: 7px; padding: 5px; font-family: 'Open Sans Regular';}
+
+.telephone {
+    width: 43%;
+    float: left;
+}
+.email {
+    width: 43%;
+    float: right;
+}
+
+.name, .product, .comment {width: 95%;}
+.name, .product, .telephone, .email {height: 10%;}
+.comment {height: 60px;}
+
+/* section ideas */
+
+.ideas {
+    background-color: white;
+    margin: 65px 0;
+    padding: 80px 0 ;
+}
+
+.ideas__img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+}
+
+.ideas__text-img{
+    width: 100%;
+    height: 70px;
+    background-color: #e6e6e6;
+    padding: 20px;
+    text-align: center;
+    margin: 3px -5px 30px 0;
+    font-family: 'Open Sans Bold';
+    font-size: 100%;
+}
+
+.ideas__button {
+    position: absolute;
+    top: 90px;
+    left: 120px;
+    height: 50px;
+    width: 130px;
+    background-color: #4d59a1;
+    color: white;
+    font-size: 11pt;
+    display: none;
+    font-family: 'Open Sans SemiBold';
+    border-radius: 3px;
+}
+
+.ideas__row {position: relative;}
+.ideas__row:hover .ideas__img {opacity: 0.33;}
+.ideas .ideas__row:hover .ideas__button {display: block;}
+
+/* section parameters */
+
+.parameters h2 span {color: #ff5f01;}
+.parameters h4 {text-align: center;  margin-bottom: 30px;}
+
+.parameters .col-xl-4{
+    position: relative;
+}
+
+.parameters img {
+    height: 310px;
+    width: 80%;
+    object-fit: cover;
+    left: 37px;
+    position: absolute;
+}
+
+.parameters .price {
+    padding: 0 40px;
+    width: 100%;
+    height: 480px;
+}
+
+.parameters__container-color {
+    width: 100%;
+    height: 530px;
+    margin-top: 200px;
+    background-color: white;
+    padding-top: 150px;
+}
+
+.line {border-top: 1px dashed #000;}
+
+
+.parameters li {
+    margin-bottom: 0;
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    font-family: 'Open Sans Regular';
+}
+
+.detail {
+    float: left;
+    width: 70%;
+    font-size: 80%;
+}
+
+.span-price {
+    color: #4d59a1;
+    font-size: 80%;
+    float: right;
+    font-weight: bolder;
+    width: 30%;
+    margin-right: -20px;
+}
+
+/* section prices-view */
+
+.prices-view_container-color {
+    position: absolute;
+    right: 0;
+    bottom: 63px;
+    width: 98%;
+    height: 80%;
+    background-color: white;
+    padding: 40px;
+}
+
+.prices-view__container-economy-graph {
+    background-color: #2f3a81;
+    padding: 30px 50px 0 50px;
+    width: 57%;
+    margin-bottom: 40px;
+}
+
+.prices-view img {width: 220px;}
+.prices-view__container-economy {position: relative;}
+
+.prices-view__container-economy-graph .left {
+    width: 45%;
+    float: left;
+    margin: 20px 20px 0 20px;
+}
+
+.prices-view__container-economy-graph .right {
+    width: 45%;
+    float: right;
+    margin-top: 20px;
+}
+
+.prices-view__container-economy p {
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+.prices-view__container-economy-graph p {
+    color: white;
+    margin-top: 20px;
+}
+
+.prices-view__container-economy-graph span {font-weight: bolder;}
+
+.prices-view__button {
+    position: absolute;
+    background-color: #ff5f01;
+    color: white;
+    height: 50px;
+    width: 130px;
+    font-size: 80%;
+    border-radius: 3px;
+    bottom: 30px;
+}
